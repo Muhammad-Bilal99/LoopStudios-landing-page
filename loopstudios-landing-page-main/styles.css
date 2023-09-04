@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+header {
+  background: url(images/desktop/image-hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 7rem;
+}
+
+.logo {
+  margin-top: 2.5rem;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-inline: 10%;
+}
+
+nav ul {
+  display: flex;
+  gap: 1.5rem;
+  list-style-type: none;
+  margin-top: 2rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.header-text-container {
+  font-size: 28px;
+  padding: 1rem 1rem;
+  margin-inline: 10%;
+  color: #ffffff;
+  border: 3px solid #ffffff;
+  max-width: 50%;
+  margin-top: 7rem;
+  font-weight: 200;
+}
+
+.leader {
+  margin-inline: 10%;
+  padding-block: 6rem;
+}
+
+.leader-container {
+  display: flex;
+  align-items: center;
+}
+
+.vr {
+  height: 25rem; width: 35rem;
+  background: url(images/desktop/image-interactive.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.leader-text-container {
+  height: 25rem; width: 35rem;
+  padding: 5rem 5rem;
+  position: absolute;
+  left: 35rem;
+  top: 48rem;
+  z-index: 2;
+  background-color: #ffffff;
+}
+
+.leader-text-container h1 {
+  font-size: 40px;
+}
+
+.leader-text-container p {
+  margin-top: 2rem;
+}
+
+.creations {
+  margin-top: 5rem;
+  margin-inline: 10%;
+}
+
+.our-creations {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.see-all {
+  border: 1px solid hsl(0, 0%, 41%);
+  color: hsl(0, 0%, 41%);
+  padding: 8px 26px;
+  background-color: #ffffff;
+}
+
+.cards-container {
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  margin-inline: 5%;
+}
+
+.card {
+  height: 20rem;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 300;
+  display: flex;
+  padding-block: 1rem ;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.card h2 {
+  align-self: flex-end;
+}
+
+
+.deep-earth {
+  background: url(images/desktop/image-deep-earth.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.night {
+  background: url(images/desktop/image-night-arcade.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.soccer {
+  background: url(images/desktop/image-soccer-team.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.grid {
+  background: url(images/desktop/image-grid.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.above {
+  background: url(images/desktop/image-from-above.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.pocket {
+  background: url(images/desktop/image-pocket-borealis.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.curiosity {
+  background: url(images/desktop/image-curiosity.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.fisheye {
+  background: url(images/desktop/image-fisheye.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer {
+  margin-top: 10rem;
+  background-color: #000000;
+  padding: 2rem 10%;
+}
+
+.footer-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.two {
+  margin-top: 2rem;
+}
+
+.footer-flex ul {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.footer-flex ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
