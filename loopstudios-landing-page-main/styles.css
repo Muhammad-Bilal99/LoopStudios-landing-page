@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family:sans-serif;
 }
 
 header {
@@ -34,6 +34,7 @@ nav ul {
 nav ul li a {
   text-decoration: none;
   color: #ffffff;
+  font-family: 'Alata', sans-serif;;
 }
 
 .header-text-container {
@@ -44,7 +45,10 @@ nav ul li a {
   border: 3px solid #ffffff;
   max-width: 50%;
   margin-top: 7rem;
-  font-weight: 200;
+}
+
+.header-text-container h1 {
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .leader {
@@ -77,6 +81,7 @@ nav ul li a {
 
 .leader-text-container h1 {
   font-size: 40px;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .leader-text-container p {
@@ -94,12 +99,29 @@ nav ul li a {
   justify-content: space-between;
 }
 
+.our-creations h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 35px;
+}
+
 .see-all {
   border: 1px solid hsl(0, 0%, 41%);
   color: hsl(0, 0%, 41%);
   padding: 8px 26px;
   background-color: #ffffff;
+  transition: all 200ms ease-out;
+  cursor: pointer;
+  font-size: 18px;
+  font-family: 'Alata', sans-serif;;
 }
+
+.see-all:hover {
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  background-color: hsl(0, 0%, 41%);
+  padding: 8px 26px;
+}
+
 
 .cards-container {
   margin-top: 3rem;
@@ -122,6 +144,7 @@ nav ul li a {
 }
 
 .card h2 {
+  font-family:'Josefin Sans', sans-serif;
   align-self: flex-end;
 }
 
@@ -214,6 +237,7 @@ footer {
 .footer-flex ul li a {
   text-decoration: none;
   color: #ffffff;
+  font-family: 'Alata', sans-serif;
 }
 
 .patent { 
@@ -315,7 +339,7 @@ footer {
   }
 
   .our-creations h1 {
-    font-size: 35px;
+    font-size: 30px;
   }
 
   .see-all {
